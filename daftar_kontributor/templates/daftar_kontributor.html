@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta %}
+<!-- Meta information goes here -->
+{% endblock meta %}
+
+{% block content %}
+<div class="container mt-5">
+  <h1>DAFTAR KONTRIBUTOR</h1>
+  <form id="filter-form" method="get" action=".">
+    <label for="filter">Filter Pencarian Kontributor berdasarkan tipe:</label>
+    <select id="filter" name="tipe">
+      <option value="semua" {% if selected_filter == "semua" %}selected{% endif %}>Semua</option>
+      <option value="sutradara" {% if selected_filter == "sutradara" %}selected{% endif %}>Sutradara</option>
+      <option value="pemain" {% if selected_filter == "pemain" %}selected{% endif %}>Pemain</option>
+      <option value="penulis" {% if selected_filter == "penulis" %}selected{% endif %}>Penulis Skenario</option>
+    </select>
+    <!-- <button type="submit">Filter</button> -->
+  </form>
+  <table class="table table-striped mt-3">
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Tipe</th>
+        <th>Jenis Kelamin</th>
+        <th>Kewarganegaraan</th>
+      </tr>
+    </thead>
+    <tbody id="kontributor-list">
+      {% for contributor in contributors %}
+      <tr class="contributor-item" data-type="{{ contributor.3 }}">
+        <td>{{ contributor.0 }}</td>
+        <td>{{ contributor.3 }}</td>
+        <td>
+          {% if contributor.1 == 0 %}
+            Laki-laki
+          {% elif contributor.1 == 1 %}
+            Perempuan
+          {% else %}
+            Tidak Diketahui
+          {% endif %}
+        </td>
+        <td>{{ contributor.2 }}</td>
+      </tr>
+      {% endfor %}
+      {% if contributors|length == 0 %}
+      <tr>
+        <td colspan="4">No contributors found.</td>
+      </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  function applyFilter(selectedFilter) {
+    var kontributorList = document.querySelectorAll('#kontributor-list .contributor-item');
+
+    kontributorList.forEach(function(kontributor) {
+      var kontributorType = kontributor.dataset.type.trim().toLowerCase();
+      
+      if (selectedFilter === 'semua' || kontributorType === selectedFilter) {
+        kontributor.style.display = 'table-row';
+      } else {
+        kontributor.style.display = 'none';
+      }
+    });
+  }
+
+  document.getElementById('filter').addEventListener('change', function() {
+    var selectedFilter = this.value.toLowerCase();
+    applyFilter(selectedFilter); // Apply filter when dropdown changes
+    localStorage.setItem('selectedFilter', selectedFilter); // Persist filter selection
+  });
+
+  window.addEventListener('load', function() {
+    var selectedFilter = localStorage.getItem('selectedFilter') || 'semua'; // Default to 'semua' if no selection
+    document.getElementById('filter').value = selectedFilter;
+    applyFilter(selectedFilter); // Apply filter on page load
+  });
+</script>
+{% endblock content %}

@@ -1,0 +1,54 @@
+{% load static %}
+
+<section class="my-5">
+  <h3 class="mb-4">Ulasan</h3>
+
+  <div class="mb-4">
+    <h4>Ulasan Anda</h4>
+    <div class="card" id="current-user-ulasan">
+      <div class="card-body">
+        <div class="mb-3">
+          <p class="card-title">Rating</p>
+          <div>
+            <a href="#" class="text-decoration-none btn-rating text-warning" data-rating="1">
+              <i class="fa-regular fa-star" id="your-rating-star-1"></i>
+            </a>
+            <a href="#" class="text-decoration-none btn-rating text-warning" data-rating="2">
+              <i class="fa-regular fa-star" id="your-rating-star-2"></i>
+            </a>
+            <a href="#" class="text-decoration-none btn-rating text-warning" data-rating="3">
+              <i class="fa-regular fa-star" id="your-rating-star-3"></i>
+            </a>
+            <a href="#" class="text-decoration-none btn-rating text-warning" data-rating="4">
+              <i class="fa-regular fa-star" id="your-rating-star-4"></i>
+            </a>
+            <a href="#" class="text-decoration-none btn-rating text-warning" data-rating="5">
+              <i class="fa-regular fa-star" id="your-rating-star-5"></i>
+            </a>
+            <span id="selected-rating">0</span> / 5
+          </div>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" placeholder="Tuliskan pendapat Anda di sini" id="deskripsi-ulasan-input"
+            style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Apa pendapat Anda tentang tayangan ini?</label>
+        </div>
+        <div class="text-end">
+          <button class="btn btn-primary" id="submit-ulasan-button">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mb-4">
+    <h4>Ulasan Pengguna</h4>
+    <div id="cards-wrapper">
+      Belum ada ulasan dari pengguna lain
+    </div>
+  </div>
+
+</section>
+
+<script src="{% static 'js/ulasan.js'%}" type="module"></script>
+<script src="https://kit.fontawesome.com/154556051d.js" crossorigin="anonymous"></script>

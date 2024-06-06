@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<main class="container-lg">
+  <h1 id="judul">Judul</h1>
+  <h2 id="sub-judul">Subjudul</h2>
+
+  <div class="d-flex flex-row justify-content-center my-4">
+    <input type="range" name="progress-tonton" id="progress-input" min="0" max="100" value="0" class="w-50">
+    <p class="inline my-auto mx-2">
+      <span id="progress-percentage">0</span>%
+    </p>
+  </div>
+
+  <button class="btn btn-primary" type="submit" id="tonton-button">Tonton</button>
+
+  <section>
+    <h2>Episode Lainnya</h2>
+    <div id="other-episodes">
+      N/A
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <strong>Durasi Episode:</strong> <span id="durasi">N/A</span> menit
+    </div>
+    <div>
+      <strong>Tanggal Rilis Episode:</strong> <span id="release-date">N/A</span>
+    </div>
+    <div>
+      <strong>URL Episode:</strong> <a id="url-video" href="#">N/A</a>
+    </div>
+    <div>
+      <strong>Sinopsis Episode:</strong>
+      <p id="sinopsis">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse autem delectus, amet, distinctio
+        nulla eius neque ad labore ipsa at quidem. Consectetur porro praesentium nihil veritatis repudiandae labore!
+        Officiis, quam!</p>
+    </div>
+  </section>
+
+  <input type="hidden" name="tayangan_id" id="tayangan-id">
+
+  <div id="liveAlertPlaceholder" class="position-fixed bottom-0 end-0 z-3"></div>
+</main>
+
+<script src="{% static 'js/episode.js' %}" type="module"></script>
+<script src="{% static 'js/tonton_tayangan.js' %}" type="module"></script>
+{% endblock content %}

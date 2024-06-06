@@ -1,0 +1,240 @@
+{
+    "ef6f8cdf-4f64-4e0d-9412-6b1ac7b2b3dc": {
+        "url_video_film": "http://example.com/video15.mp4",
+        "release_date_film": "2024-01-11",
+        "durasi_film": 109,
+        "id": "ef6f8cdf-4f64-4e0d-9412-6b1ac7b2b3dc",
+        "judul": "Harry Potter and the Deathly Hallows - Part 2",
+        "sinopsis": "Harry Potter melawan Voldemort dalam pertempuran akhir di Hogwarts.",
+        "asal_negara": ["Britania Raya"],
+        "sinopsis_trailer": "Pertempuran epik antara kebaikan dan kejahatan di Hogwarts.",
+        "url_video_trailer": "https://www.example.com/trailer1",
+        "release_date_trailer": "2011-07-15",
+        "id_sutradara": "17c73f75-d8c6-4d39-b8d9-bf74b0fb1f1d",
+        "total_view": 50000,
+        "rating": 4.3,
+        "pemain": [
+            {
+                "id": "84e7e393-5e9e-46ad-b9a8-afe3c39a976e",
+                "name": "Daniel Radcliffe"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "19b8ac3d-b08b-48b3-8bbd-b9e20b4a6f6e",
+                "name": "Steve Kloves"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "17c73f75-d8c6-4d39-b8d9-bf74b0fb1f1d",
+                "name": "David Yates"
+            }
+        ],
+        "genre": ["Fantasy", "Adventure"]
+    },
+    "2061ff63-5993-49d8-a574-4b42bf850f57": {
+        "url_video_film": "http://example.com/video39.mp4",
+        "release_date_film": "2023-11-26",
+        "durasi_film": 129,
+        "id": "2061ff63-5993-49d8-a574-4b42bf850f57",
+        "judul": "Love and Other Drugs",
+        "sinopsis": "Seorang salesman obat bertemu dengan seorang wanita yang memiliki Parkinson.",
+        "asal_negara": ["Amerika Serikat"],
+        "sinopsis_trailer": "Kisah cinta yang kompleks dan penuh emosi di tengah kesulitan hidup.",
+        "url_video_trailer": "https://www.example.com/trailer2",
+        "release_date_trailer": "2010-11-24",
+        "id_sutradara": "3a022177-456a-46af-a7b8-ec89619e48b6",
+        "total_view": 72000,
+        "rating": 4.1,
+        "pemain": [
+            {
+                "id": "4c77cb3e-b9ab-4c4d-9a12-61d312c4e3f3",
+                "name": "Jake Gyllenhaal"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "2225f8d0-3e15-4746-98e5-fcc18c4fd037",
+                "name": "Charles Randolph"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "3a022177-456a-46af-a7b8-ec89619e48b6",
+                "name": "Edward Zwick"
+            }
+        ],
+        "genre": ["Romance", "Drama"]
+    },
+    "2359a69c-7e7d-4d8d-b4fb-69abb4ced40a": {
+        "url_video_film": "http://example.com/video49.mp4",
+        "release_date_film": "2023-09-26",
+        "durasi_film": 114,
+        "id": "2359a69c-7e7d-4d8d-b4fb-69abb4ced40a",
+        "judul": "Inception",
+        "sinopsis": "Seorang pencuri mimpi memasuki dunia bawah sadar targetnya melalui mimpi orang lain.",
+        "asal_negara": ["Amerika Serikat"],
+        "sinopsis_trailer": "Petualangan yang membingungkan dan mendebarkan dalam realitas beralih.",
+        "url_video_trailer": "https://www.example.com/trailer3",
+        "release_date_trailer": "2010-07-16",
+        "id_sutradara": "5e03eb63-312b-4fa7-a946-c1b20c141160",
+        "total_view": 92000,
+        "rating": 4.8,
+        "pemain": [
+            {
+                "id": "84e7e393-5e9e-46ad-b9a8-afe3c39a976e",
+                "name": "Leonardo DiCaprio"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "33396f5d-df44-4267-8601-623db1cbf1e0",
+                "name": "Christopher Nolan"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "5e03eb63-312b-4fa7-a946-c1b20c141160",
+                "name": "Christopher Nolan"
+            }
+        ],
+        "genre": ["Action", "Sci-Fi"]
+    },
+    "d206b638-4019-4b2c-b755-528908bfc1bf": {
+        "url_video_film": "http://example.com/video47.mp4",
+        "release_date_film": "2024-04-11",
+        "durasi_film": 127,
+        "id": "d206b638-4019-4b2c-b755-528908bfc1bf",
+        "judul": "Ada Apa dengan Cinta?",
+        "sinopsis": "Kisah cinta remaja yang menggambarkan konflik dan kehangatan persahabatan.",
+        "asal_negara": ["Indonesia"],
+        "sinopsis_trailer": "Kisah cinta yang mengharukan dengan sentuhan komedi yang segar.",
+        "url_video_trailer": "https://www.example.com/trailer4",
+        "release_date_trailer": "2002-02-28",
+        "id_sutradara": "a17848bc-50a9-4d53-801e-c9c07715d45c",
+        "total_view": 35000,
+        "rating": 3.9,
+        "pemain": [
+            {
+                "id": "8ff7f50d-75e8-4cbb-bf53-19f2c72426db",
+                "name": "Dian Sastrowardoyo"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "e5101948-7a8d-4413-8a5b-0c02b1ef509e",
+                "name": "Jenny Jusuf"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "a17848bc-50a9-4d53-801e-c9c07715d45c",
+                "name": "Riri Riza"
+            }
+        ],
+        "genre": ["Romance", "Comedy", "Drama"]
+    },
+    "8437aa22-436c-41b4-b7d7-307d745b41df": {
+        "url_video_film": "http://example.com/video59.mp4",
+        "release_date_film": "2023-08-31",
+        "durasi_film": 120,
+        "id": "8437aa22-436c-41b4-b7d7-307d745b41df",
+        "judul": "Perempuan Berkalung Sorban",
+        "sinopsis": "Seorang perempuan berkalung sorban menghadapi konflik antara agama dan hati.",
+        "asal_negara": ["Indonesia"],
+        "sinopsis_trailer": "Perjuangan seorang perempuan dalam menemukan identitasnya yang sejati.",
+        "url_video_trailer": "https://www.example.com/trailer5",
+        "release_date_trailer": "2009-12-17",
+        "id_sutradara": "8a6e5e14-ec70-4e84-a00e-bf1febb6ac62",
+        "total_view": 55000,
+        "rating": 4.2,
+        "pemain": [
+            {
+                "id": "8ff7f50d-75e8-4cbb-bf53-19f2c72426db",
+                "name": "Revalina S. Temat"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "f3ff82bc-1b3b-4b96-8a86-d2348394dd97",
+                "name": "Hanung Bramantyo"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "8a6e5e14-ec70-4e84-a00e-bf1febb6ac62",
+                "name": "Hanung Bramantyo"
+            }
+        ],
+        "genre": ["Drama"]
+    },
+    "c5a089b4-0065-4274-87ae-39b2a9a56c75": {
+        "url_video_film": "http://example.com/video8.mp4",
+        "release_date_film": "2024-03-21",
+        "durasi_film": 124,
+        "id": "c5a089b4-0065-4274-87ae-39b2a9a56c75",
+        "judul": "Laskar Pelangi",
+        "sinopsis": "Sebuah kisah inspiratif tentang anak-anak muda di pedalaman Indonesia.",
+        "asal_negara": ["Indonesia"],
+        "sinopsis_trailer": "Petualangan, persahabatan, dan mimpi-mimpi di tengah kesulitan hidup.",
+        "url_video_trailer": "https://www.example.com/trailer6",
+        "release_date_trailer": "2008-09-25",
+        "id_sutradara": "2f68b9c7-632f-4f8b-8287-2fd77f19ff0f",
+        "total_view": 68000,
+        "rating": 4.5,
+        "pemain": [
+            {
+                "id": "8ff7f50d-75e8-4cbb-bf53-19f2c72426db",
+                "name": "Cut Mini Theo"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "fd4ff10b-4214-4f88-9e3e-7f9f45f40914",
+                "name": "Salman Aristo"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "2f68b9c7-632f-4f8b-8287-2fd77f19ff0f",
+                "name": "Riri Riza"
+            }
+        ],
+        "genre": ["Drama"]
+    },
+    "a6aba695-14b9-4492-8f51-80e6708c2af2": {
+        "url_video_film": "http://example.com/video81.mp4",
+        "release_date_film": "2023-10-17",
+        "durasi_film": 103,
+        "id": "a6aba695-14b9-4492-8f51-80e6708c2af2",
+        "judul": "Parasite",
+        "sinopsis": "Keluarga miskin berusaha mengambil alih kehidupan keluarga kaya.",
+        "asal_negara": ["Korea Selatan"],
+        "sinopsis_trailer": "Permainan kelas sosial yang gelap dan penuh intrik.",
+        "url_video_trailer": "https://www.example.com/trailer7",
+        "release_date_trailer": "2019-05-21",
+        "id_sutradara": "a4f52968-46ed-497e-ba7b-c6c9aa7d0b50",
+        "total_view": 95000,
+        "rating": 4.9,
+        "pemain": [
+            {
+                "id": "8547a33b-7a7c-47b5-b8f7-d62cf0de4507",
+                "name": "Song Kang-ho"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "086c13c8-c141-4636-ae0a-68b68b76a027",
+                "name": "Bong Joon-ho"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "a4f52968-46ed-497e-ba7b-c6c9aa7d0b50",
+                "name": "Bong Joon-ho"
+            }
+        ],
+        "genre": ["Drama", "Thriller"]
+    }
+}

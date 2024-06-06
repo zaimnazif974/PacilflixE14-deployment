@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container " style="justify-content: center; text-align: center;">
+    <h1>Daftar Favorit</h1>
+</div>
+
+<div class="container mx-auto px-1 py-1 background-color-blue"  >
+    <table class="table table-striped table-hover table-bordered">
+        <thead>
+            <tr>
+                <th class="text-center">Daftar Favorit</th>
+                <th class="text-center">Waktu Ditambahkan</th>
+                <th class="text-center">Action</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            {% for daftarfavorit in hasil %}
+            <tr>
+                <td>
+                    <a href="{% url 'daftar_favorit:detail-daftar-favorit' daftar_favorit=daftarfavorit.judul timestamp=daftarfavorit.timestamp %}">
+                        {{ daftarfavorit.judul }}</a>
+                </td>
+                <td class="text-center">{{ daftarfavorit.timestamp }}</td>
+                <td class="text-center">
+                    <a href="{% url 'daftar_favorit:delete-daftar-favorit' daftarfavorit.timestamp %}">
+                        <button type="button" class="btn btn-danger">
+                            Delete
+                        </button>
+                    </a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock content %}

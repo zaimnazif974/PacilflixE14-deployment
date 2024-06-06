@@ -1,0 +1,304 @@
+{
+    "best_tayangan": [
+        {
+            "id": "ef6f8cdf-4f64-4e0d-9412-6b1ac7b2b3dc",
+            "judul": "Harry Potter and the Deathly Hallows - Part 2",
+            "sinopsis": "Harry Potter melawan Voldemort dalam pertempuran akhir di Hogwarts.",
+            "asal_negara": "Britania Raya",
+            "sinopsis_trailer": "Pertempuran epik antara kebaikan dan kejahatan di Hogwarts.",
+            "url_video_trailer": "https://www.example.com/trailer1",
+            "release_date_trailer": "2011-07-15",
+            "type": "film",
+            "id_sutradara": "17c73f75-d8c6-4d39-b8d9-bf74b0fb1f1d",
+            "peringkat": 1,
+            "total_views": 1000000
+        },
+        {
+            "id": "2061ff63-5993-49d8-a574-4b42bf850f57",
+            "judul": "Love and Other Drugs",
+            "sinopsis": "Seorang salesman obat bertemu dengan seorang wanita yang memiliki Parkinson.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Kisah cinta yang kompleks dan penuh emosi di tengah kesulitan hidup.",
+            "url_video_trailer": "https://www.example.com/trailer2",
+            "release_date_trailer": "2010-11-24",
+            "type": "film",
+            "id_sutradara": "3a022177-456a-46af-a7b8-ec89619e48b6",
+            "peringkat": 2,
+            "total_views": 750000
+        },
+
+        {
+            "id": "d206b638-4019-4b2c-b755-528908bfc1bf",
+            "judul": "Ada Apa dengan Cinta?",
+            "sinopsis": "Kisah cinta remaja yang menggambarkan konflik dan kehangatan persahabatan.",
+            "asal_negara": "Indonesia",
+            "sinopsis_trailer": "Kisah cinta yang mengharukan dengan sentuhan komedi yang segar.",
+            "url_video_trailer": "https://www.example.com/trailer4",
+            "release_date_trailer": "2002-02-28",
+            "type": "film",
+            "id_sutradara": "a17848bc-50a9-4d53-801e-c9c07715d45c",
+            "peringkat": 3,
+            "total_views": 500000
+        },
+        {
+            "id": "8437aa22-436c-41b4-b7d7-307d745b41df",
+            "judul": "Perempuan Berkalung Sorban",
+            "sinopsis": "Seorang perempuan berkalung sorban menghadapi konflik antara agama dan hati.",
+            "asal_negara": "Indonesia",
+            "sinopsis_trailer": "Perjuangan seorang perempuan dalam menemukan identitasnya yang sejati.",
+            "url_video_trailer": "https://www.example.com/trailer5",
+            "release_date_trailer": "2009-12-17",
+            "type": "film",
+            "id_sutradara": "8a6e5e14-ec70-4e84-a00e-bf1febb6ac62",
+            "peringkat": 4,
+            "total_views": 300000
+        },
+        {
+            "id": "c5a089b4-0065-4274-87ae-39b2a9a56c75",
+            "judul": "Laskar Pelangi",
+            "sinopsis": "Sebuah kisah inspiratif tentang anak-anak muda di pedalaman Indonesia.",
+            "asal_negara": "Indonesia",
+            "sinopsis_trailer": "Petualangan, persahabatan, dan mimpi-mimpi di tengah kesulitan hidup.",
+            "url_video_trailer": "https://www.example.com/trailer6",
+            "release_date_trailer": "2008-09-25",
+            "type": "film",
+            "id_sutradara": "2f68b9c7-632f-4f8b-8287-2fd77f19ff0f",
+            "peringkat": 5,
+            "total_views": 800000
+        },
+        {
+            "id": "a6aba695-14b9-4492-8f51-80e6708c2af2",
+            "judul": "Parasite",
+            "sinopsis": "Keluarga miskin berusaha mengambil alih kehidupan keluarga kaya.",
+            "asal_negara": "Korea Selatan",
+            "sinopsis_trailer": "Permainan kelas sosial yang gelap dan penuh intrik.",
+            "url_video_trailer": "https://www.example.com/trailer7",
+            "release_date_trailer": "2019-05-21",
+            "type": "film",
+            "id_sutradara": "a4f52968-46ed-497e-ba7b-c6c9aa7d0b50",
+            "peringkat": 6,
+            "total_views": 3000000
+        },
+        {
+            "id": "6d5675e6-198f-4b65-adbf-2ea3f946a1d5",
+            "judul": "Stranger Things",
+            "sinopsis": "Anak-anak di sebuah kota kecil Amerika Serikat berusaha menyelamatkan teman mereka yang hilang.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Misteri, petualangan, dan nostalgia 80-an di dunia paralel yang gelap.",
+            "url_video_trailer": "https://www.example.com/trailer11",
+            "release_date_trailer": "2016-07-15",
+            "type": "series",
+            "id_sutradara": "0d20f1e7-4d67-4536-a2b4-6b5e9ff65019",
+            "peringkat": 7,
+            "total_views": 2500000
+        },
+        {
+            "id": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+            "judul": "Black Mirror",
+            "sinopsis": "Serangkaian cerita fiksi ilmiah yang menyoroti dampak teknologi di masa depan.",
+            "asal_negara": "Britania Raya",
+            "sinopsis_trailer": "Cerita-cerita mengerikan yang merenungkan tentang teknologi modern.",
+            "url_video_trailer": "https://www.example.com/trailer12",
+            "release_date_trailer": "2011-12-04",
+            "type": "series",
+            "id_sutradara": "a4f52968-46ed-497e-ba7b-c6c9aa7d0b50",
+            "peringkat": 8,
+            "total_views": 1500000
+        },
+        {
+            "id": "554d1629-008f-45e5-992c-2e41274eb34f",
+            "judul": "Game of Thrones",
+            "sinopsis": "Perjuangan antara keluarga bangsawan untuk merebut takhta besi dan kekuasaan di Westeros.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Intrik politik, pertempuran epik, dan pengkhianatan dalam permainan tahta.",
+            "url_video_trailer": "https://www.example.com/trailer13",
+            "release_date_trailer": "2011-04-17",
+            "type": "series",
+            "id_sutradara": "6ae49c25-f0b7-4c5c-97bb-f3a3144fe07b",
+            "peringkat": 9,
+            "total_views": 5000000
+        },
+        {
+            "id": "2359a69c-7e7d-4d8d-b4fb-69abb4ced40a",
+            "judul": "Inception",
+            "sinopsis": "Seorang pencuri mimpi memasuki dunia bawah sadar targetnya melalui mimpi orang lain.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Petualangan yang membingungkan dan mendebarkan dalam realitas beralih.",
+            "url_video_trailer": "https://www.example.com/trailer3",
+            "release_date_trailer": "2010-07-16",
+            "type": "film",
+            "id_sutradara": "5e03eb63-312b-4fa7-a946-c1b20c141160",
+            "peringkat": 10,
+            "total_views": 2000000
+        }
+    ],
+    "film": [
+        {
+            "id": "ef6f8cdf-4f64-4e0d-9412-6b1ac7b2b3dc",
+            "judul": "Harry Potter and the Deathly Hallows - Part 2",
+            "sinopsis": "Harry Potter melawan Voldemort dalam pertempuran akhir di Hogwarts.",
+            "asal_negara": "Britania Raya",
+            "sinopsis_trailer": "Pertempuran epik antara kebaikan dan kejahatan di Hogwarts.",
+            "url_video_trailer": "https://www.example.com/trailer1",
+            "release_date_trailer": "2011-07-15",
+            "type": "film",
+            "id_sutradara": "17c73f75-d8c6-4d39-b8d9-bf74b0fb1f1d"
+        },
+        {
+            "id": "2061ff63-5993-49d8-a574-4b42bf850f57",
+            "judul": "Love and Other Drugs",
+            "sinopsis": "Seorang salesman obat bertemu dengan seorang wanita yang memiliki Parkinson.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Kisah cinta yang kompleks dan penuh emosi di tengah kesulitan hidup.",
+            "url_video_trailer": "https://www.example.com/trailer2",
+            "release_date_trailer": "2010-11-24",
+            "type": "film",
+            "id_sutradara": "3a022177-456a-46af-a7b8-ec89619e48b6"
+        },
+        {
+            "id": "2359a69c-7e7d-4d8d-b4fb-69abb4ced40a",
+            "judul": "Inception",
+            "sinopsis": "Seorang pencuri mimpi memasuki dunia bawah sadar targetnya melalui mimpi orang lain.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Petualangan yang membingungkan dan mendebarkan dalam realitas beralih.",
+            "url_video_trailer": "https://www.example.com/trailer3",
+            "release_date_trailer": "2010-07-16",
+            "type": "film",
+            "id_sutradara": "5e03eb63-312b-4fa7-a946-c1b20c141160"
+        },
+        {
+            "id": "d206b638-4019-4b2c-b755-528908bfc1bf",
+            "judul": "Ada Apa dengan Cinta?",
+            "sinopsis": "Kisah cinta remaja yang menggambarkan konflik dan kehangatan persahabatan.",
+            "asal_negara": "Indonesia",
+            "sinopsis_trailer": "Kisah cinta yang mengharukan dengan sentuhan komedi yang segar.",
+            "url_video_trailer": "https://www.example.com/trailer4",
+            "release_date_trailer": "2002-02-28",
+            "type": "film",
+            "id_sutradara": "a17848bc-50a9-4d53-801e-c9c07715d45c"
+        },
+        {
+            "id": "8437aa22-436c-41b4-b7d7-307d745b41df",
+            "judul": "Perempuan Berkalung Sorban",
+            "sinopsis": "Seorang perempuan berkalung sorban menghadapi konflik antara agama dan hati.",
+            "asal_negara": "Indonesia",
+            "sinopsis_trailer": "Perjuangan seorang perempuan dalam menemukan identitasnya yang sejati.",
+            "url_video_trailer": "https://www.example.com/trailer5",
+            "release_date_trailer": "2009-12-17",
+            "type": "film",
+            "id_sutradara": "8a6e5e14-ec70-4e84-a00e-bf1febb6ac62"
+        },
+        {
+            "id": "c5a089b4-0065-4274-87ae-39b2a9a56c75",
+            "judul": "Laskar Pelangi",
+            "sinopsis": "Sebuah kisah inspiratif tentang anak-anak muda di pedalaman Indonesia.",
+            "asal_negara": "Indonesia",
+            "sinopsis_trailer": "Petualangan, persahabatan, dan mimpi-mimpi di tengah kesulitan hidup.",
+            "url_video_trailer": "https://www.example.com/trailer6",
+            "release_date_trailer": "2008-09-25",
+            "type": "film",
+            "id_sutradara": "2f68b9c7-632f-4f8b-8287-2fd77f19ff0f"
+        },
+        {
+            "id": "a6aba695-14b9-4492-8f51-80e6708c2af2",
+            "judul": "Parasite",
+            "sinopsis": "Keluarga miskin berusaha mengambil alih kehidupan keluarga kaya.",
+            "asal_negara": "Korea Selatan",
+            "sinopsis_trailer": "Permainan kelas sosial yang gelap dan penuh intrik.",
+            "url_video_trailer": "https://www.example.com/trailer7",
+            "release_date_trailer": "2019-05-21",
+            "type": "film",
+            "id_sutradara": "a4f52968-46ed-497e-ba7b-c6c9aa7d0b50"
+        },
+        {
+            "id": "b449d128-9624-45c9-bcff-231f0f26de49",
+            "judul": "The Grand Budapest Hotel",
+            "sinopsis": "Sebuah petualangan kocak di sebuah hotel mewah di pegunungan.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Humor khas Wes Anderson dalam sebuah perjalanan yang luar biasa.",
+            "url_video_trailer": "https://www.example.com/trailer8",
+            "release_date_trailer": "2014-03-28",
+            "type": "film",
+            "id_sutradara": "6ae49c25-f0b7-4c5c-97bb-f3a3144fe07b"
+        },
+        {
+            "id": "f4cd5faa-12ac-4b23-8664-27f94f7e2202",
+            "judul": "The Shawshank Redemption",
+            "sinopsis": "Kisah persahabatan di dalam penjara yang menggugah emosi.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Sebuah cerita inspiratif tentang harapan dan kebebasan di balik jeruji besi.",
+            "url_video_trailer": "https://www.example.com/trailer9",
+            "release_date_trailer": "1994-09-23",
+            "type": "film",
+            "id_sutradara": "8a01c03c-6b12-4d56-9408-af4a895b867d"
+        },
+        {
+            "id": "c1abd837-17bd-40c6-b8bc-2a99bbebc733",
+            "judul": "The Dark Knight",
+            "sinopsis": "Batman berhadapan dengan musuh terkuatnya, Joker, dalam pertarungan yang epik.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Pertarungan gelap antara kegelapan dan keadilan di Gotham City.",
+            "url_video_trailer": "https://www.example.com/trailer10",
+            "release_date_trailer": "2008-07-18",
+            "type": "film",
+            "id_sutradara": "5e03eb63-312b-4fa7-a946-c1b20c141160"
+        }
+    ],
+    "series": [
+        {
+            "id": "6d5675e6-198f-4b65-adbf-2ea3f946a1d5",
+            "judul": "Stranger Things",
+            "sinopsis": "Anak-anak di sebuah kota kecil Amerika Serikat berusaha menyelamatkan teman mereka yang hilang.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Misteri, petualangan, dan nostalgia 80-an di dunia paralel yang gelap.",
+            "url_video_trailer": "https://www.example.com/trailer11",
+            "release_date_trailer": "2016-07-15",
+            "type": "series",
+            "id_sutradara": "0d20f1e7-4d67-4536-a2b4-6b5e9ff65019"
+        },
+        {
+            "id": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+            "judul": "Black Mirror",
+            "sinopsis": "Serangkaian cerita fiksi ilmiah yang menyoroti dampak teknologi di masa depan.",
+            "asal_negara": "Britania Raya",
+            "sinopsis_trailer": "Cerita-cerita mengerikan yang merenungkan tentang teknologi modern.",
+            "url_video_trailer": "https://www.example.com/trailer12",
+            "release_date_trailer": "2011-12-04",
+            "type": "series",
+            "id_sutradara": "a4f52968-46ed-497e-ba7b-c6c9aa7d0b50"
+        },
+        {
+            "id": "554d1629-008f-45e5-992c-2e41274eb34f",
+            "judul": "Game of Thrones",
+            "sinopsis": "Perjuangan antara keluarga bangsawan untuk merebut takhta besi dan kekuasaan di Westeros.",
+            "asal_negara": "Amerika Serikat",
+            "sinopsis_trailer": "Intrik politik, pertempuran epik, dan pengkhianatan dalam permainan tahta.",
+            "url_video_trailer": "https://www.example.com/trailer13",
+            "release_date_trailer": "2011-04-17",
+            "type": "series",
+            "id_sutradara": "6ae49c25-f0b7-4c5c-97bb-f3a3144fe07b"
+        },
+        {
+            "id": "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3",
+            "judul": "Itaewon Class",
+            "sinopsis": "Seorang pria memulai restoran di Itaewon untuk membalas dendam dan mencapai kesuksesan.",
+            "asal_negara": "Korea Selatan",
+            "sinopsis_trailer": "Perjuangan, cinta, dan pertarungan untuk keadilan di jalanan Seoul.",
+            "url_video_trailer": "https://www.example.com/trailer14",
+            "release_date_trailer": "2020-01-31",
+            "type": "series",
+            "id_sutradara": "8a01c03c-6b12-4d56-9408-af4a895b867d"
+        },
+        {
+            "id": "415b6963-4501-4221-9e40-0ab6bece59bf",
+            "judul": "Hotel Del Luna",
+            "sinopsis": "Sebuah hotel misterius yang melayani roh-roh penasaran dengan masalah mereka.",
+            "asal_negara": "Korea Selatan",
+            "sinopsis_trailer": "Keajaiban dan kegelapan bertemu di hotel yang tak terlupakan ini.",
+            "url_video_trailer": "https://www.example.com/trailer15",
+            "release_date_trailer": "2019-07-13",
+            "type": "series",
+            "id_sutradara": "3a022177-456a-46af-a7b8-ec89619e48b6"
+        }
+    ]
+}

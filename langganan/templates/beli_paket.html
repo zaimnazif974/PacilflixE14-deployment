@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">HALAMAN BELI</h1>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Informasi Paket yang Ingin Dibeli:</h5>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Paket</th>
+                        <th scope="col">Harga</th>
+                        <th scope="col">Resolusi Layar</th>
+                        <th scope="col">Dukungan Perangkat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ package_info.0 }}</td>
+                        <td>{{ package_info.1 }}</td>
+                        <td>{{ package_info.2 }}</td>
+                        <td>{{ package_info.3 }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <form method="post" action="{% url 'main:add_transaction' package_name %}">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="metode_pembayaran" class="form-label">Pilih Metode Pembayaran:</label>
+            <select class="form-select" id="metode_pembayaran" name="metode_pembayaran" required>
+                <option value="transfer_bank">Transfer Bank</option>
+                <option value="kartu_kredit">Kartu Kredit</option>
+                <option value="e_wallet">E-Wallet</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Bayar</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<main class="container-lg">
+  <h1 class="my-4">Daftar Tayangan</h1>
+
+  <form class="d-flex my-4" role="search">
+    <input id="search-bar" class="form-control me-2" type="search" placeholder="Cari tayangan berdasarkan judul..."
+      aria-label="Search">
+    <button id="search-button" class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+
+  <section class="my-4">
+    <h2>10 Tayangan Terbaik Minggu ini</h2>
+    <table class="table  table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Peringkat</th>
+          <th scope="col">Judul</th>
+          <th scope="col">Sinopsis Trailer</th>
+          <th scope="col">URL Trailer</th>
+          <th scope="col">Tanggal Rilis Trailer</th>
+          <th scope="col">Total View (7 hari terakhir)</th>
+          <th scope="col">Tayangan</th>
+        </tr>
+      </thead>
+      <tbody id="tayangan-terbaik-tbody" class="table-group-divider"></tbody>
+    </table>
+  </section>
+
+
+  <section class="my-4">
+    <h2>Film</h2>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Judul</th>
+          <th scope="col">Sinopsis Trailer</th>
+          <th scope="col">URL Trailer</th>
+          <th scope="col">Tanggal Rilis Trailer</th>
+          <th scope="col">Tayangan</th>
+        </tr>
+      </thead>
+      <tbody id="film-tbody" class="table-group-divider">
+        
+    </table>
+  </section>
+
+
+  <section class="my-4">
+    <h2>Series</h2>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Judul</th>
+          <th scope="col">Sinopsis Trailer</th>
+          <th scope="col">URL Trailer</th>
+          <th scope="col">Tanggal Rilis Trailer</th>
+          <th scope="col">Tayangan</th>
+        </tr>
+      </thead>
+      <tbody id="series-tbody" class="table-group-divider">
+        <tr>
+          <td>Mark 1</td>
+          <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+          <td><a href="www.example.com">www.example.com</a></td>
+          <td>1 Januari 2020</td>
+          <td><a href="/series/abcde" type="button" class="btn btn-dark">View More</a></td>
+        </tr>
+    </table>
+  </section>
+
+</main>
+
+<script type="module" src="{% static 'js/daftar_tayangan.js' %}"></script>
+{% endblock content %}

@@ -1,0 +1,98 @@
+[
+    {
+        "id_series": "6d5675e6-198f-4b65-adbf-2ea3f946a1d5",
+        "sub_judul": "Route Irish Ep 1",
+        "sinopsis": "Sinopsis konten 1",
+        "durasi": 50,
+        "url_video": "http://example.com/ep99.mp4",
+        "release_date": "2023-07-04"
+    },
+    {
+        "id_series": "6d5675e6-198f-4b65-adbf-2ea3f946a1d5",
+        "sub_judul": "Route Irish Ep 2",
+        "sinopsis": "Sinopsis konten 2",
+        "durasi": 51,
+        "url_video": "http://example.com/ep81.mp4",
+        "release_date": "2023-05-07"
+    },
+    {
+        "id_series": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+        "sub_judul": "My Best Girl Ep 1",
+        "sinopsis": "Sinopsis konten 3",
+        "durasi": 44,
+        "url_video": "http://example.com/ep36.mp4",
+        "release_date": "2024-01-09"
+    },
+    {
+        "id_series": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+        "sub_judul": "My Best Girl Ep 2 ",
+        "sinopsis": "Sinopsis konten 4",
+        "durasi": 38,
+        "url_video": "http://example.com/ep96.mp4",
+        "release_date": "2023-10-27"
+    },
+    {
+        "id_series": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+        "sub_judul": "My Best Girl Ep 3",
+        "sinopsis": "Sinopsis konten 5",
+        "durasi": 21,
+        "url_video": "http://example.com/ep88.mp4",
+        "release_date": "2024-01-27"
+    },
+    {
+        "id_series": "554d1629-008f-45e5-992c-2e41274eb34f",
+        "sub_judul": "Losers Club Ep 1",
+        "sinopsis": "Sinopsis konten 6",
+        "durasi": 57,
+        "url_video": "http://example.com/ep18.mp4",
+        "release_date": "2023-10-24"
+    },
+    {
+        "id_series": "554d1629-008f-45e5-992c-2e41274eb34f",
+        "sub_judul": "Losers Club Ep 2",
+        "sinopsis": "Sinopsis konten 7",
+        "durasi": 20,
+        "url_video": "http://example.com/ep71.mp4",
+        "release_date": "2023-08-16"
+    },
+    {
+        "id_series": "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3",
+        "sub_judul": "Mad Max Beyond Thunderdome Ep 1",
+        "sinopsis": "Sinopsis konten 8",
+        "durasi": 25,
+        "url_video": "http://example.com/ep81.mp4",
+        "release_date": "2024-04-03"
+    },
+    {
+        "id_series": "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3",
+        "sub_judul": "Mad Max Beyond Thunderdome Ep 2",
+        "sinopsis": "Sinopsis konten 9",
+        "durasi": 58,
+        "url_video": "http://example.com/ep7.mp4",
+        "release_date": "2024-01-07"
+    },
+    {
+        "id_series": "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3",
+        "sub_judul": "Mad Max Beyond Thunderdome Ep 3",
+        "sinopsis": "Sinopsis konten 10",
+        "durasi": 34,
+        "url_video": "http://example.com/ep65.mp4",
+        "release_date": "2024-04-17"
+    },
+    {
+        "id_series": "415b6963-4501-4221-9e40-0ab6bece59bf",
+        "sub_judul": "Prayer for the Dying, A Ep 1",
+        "sinopsis": "Sinopsis konten 11",
+        "durasi": 55,
+        "url_video": "http://example.com/ep20.mp4",
+        "release_date": "2023-06-28"
+    },
+    {
+        "id_series": "415b6963-4501-4221-9e40-0ab6bece59bf",
+        "sub_judul": "Prayer for the Dying, A Ep 2",
+        "sinopsis": "Sinopsis konten 12",
+        "durasi": 42,
+        "url_video": "http://example.com/ep56.mp4",
+        "release_date": "2024-04-21"
+    }
+]

@@ -1,0 +1,215 @@
+{
+    "6d5675e6-198f-4b65-adbf-2ea3f946a1d5": {
+        "id": "6d5675e6-198f-4b65-adbf-2ea3f946a1d5",
+        "judul": "Stranger Things",
+        "sinopsis": "Anak-anak di sebuah kota kecil Amerika Serikat berusaha menyelamatkan teman mereka yang hilang.",
+        "asal_negara": ["Amerika Serikat"],
+        "sinopsis_trailer": "Misteri, petualangan, dan nostalgia 80-an di dunia paralel yang gelap.",
+        "url_video_trailer": "https://www.example.com/trailer11",
+        "release_date_trailer": "2016-07-15",
+        "id_sutradara": "0d20f1e7-4d67-4536-a2b4-6b5e9ff65019",
+        "total_view": 68000,
+        "rating": 4.5,
+        "episode": [
+            {
+                "id_series": "6d5675e6-198f-4b65-adbf-2ea3f946a1d5",
+                "sub_judul": "Route Irish Ep 1"
+            },
+            {
+                "id_series": "6d5675e6-198f-4b65-adbf-2ea3f946a1d5",
+                "sub_judul": "Route Irish Ep 2"
+            }
+        ],
+        "genre": ["Mystery", "Adventure", "Science Fiction", "Horror"],
+        "pemain": [
+            {
+                "id": "a3055e44-01f8-4b64-b936-3f7f2e0377d4",
+                "name": "Millie Bobby Brown"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "fe8e2733-d0c8-42f7-babf-4864b72b1fd9",
+                "name": "The Duffer Brothers"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "0d20f1e7-4d67-4536-a2b4-6b5e9ff65019",
+                "name": "The Duffer Brothers"
+            }
+        ]
+    },
+    "c8a59d1c-2158-4478-a119-276bdaa37bb5": {
+        "id": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+        "judul": "Black Mirror",
+        "sinopsis": "Serangkaian cerita fiksi ilmiah yang menyoroti dampak teknologi di masa depan.",
+        "asal_negara": ["Britania Raya"],
+        "sinopsis_trailer": "Cerita-cerita mengerikan yang merenungkan tentang teknologi modern.",
+        "url_video_trailer": "https://www.example.com/trailer12",
+        "release_date_trailer": "2011-12-04",
+        "id_sutradara": "a4f52968-46ed-497e-ba7b-c6c9aa7d0b50",
+        "total_view": 95000,
+        "rating": 4.9,
+        "episode": [
+            {
+                "id_series": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+                "sub_judul": "My Best Girl Ep 1"
+            },
+            {
+                "id_series": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+                "sub_judul": "My Best Girl Ep 2 "
+            },
+            {
+                "id_series": "c8a59d1c-2158-4478-a119-276bdaa37bb5",
+                "sub_judul": "My Best Girl Ep 3"
+            }
+        ],
+        "genre": ["Science Fiction", "Thriller", "Drama"],
+        "pemain": [
+            {
+                "id": "6dbd187b-52c4-4c8d-a9f1-d5bc3be2e54a",
+                "name": "Bryce Dallas Howard"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "50f389e1-7c3f-4ed5-80e7-b9b0dd546ea7",
+                "name": "Charlie Brooker"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "a4f52968-46ed-497e-ba7b-c6c9aa7d0b50",
+                "name": "Carl Tibbetts"
+            }
+        ]
+    },
+    "554d1629-008f-45e5-992c-2e41274eb34f": {
+        "id": "554d1629-008f-45e5-992c-2e41274eb34f",
+        "judul": "Game of Thrones",
+        "sinopsis": "Perjuangan antara keluarga bangsawan untuk merebut takhta besi dan kekuasaan di Westeros.",
+        "asal_negara": ["Amerika Serikat"],
+        "sinopsis_trailer": "Intrik politik, pertempuran epik, dan pengkhianatan dalam permainan tahta.",
+        "url_video_trailer": "https://www.example.com/trailer13",
+        "release_date_trailer": "2011-04-17",
+        "id_sutradara": "6ae49c25-f0b7-4c5c-97bb-f3a3144fe07b",
+        "total_view": 92000,
+        "rating": 4.8,
+        "episode": [
+            {
+                "id_series": "554d1629-008f-45e5-992c-2e41274eb34f",
+                "sub_judul": "Losers Club Ep 1"
+            },
+            {
+                "id_series": "554d1629-008f-45e5-992c-2e41274eb34f",
+                "sub_judul": "Losers Club Ep 2"
+            }
+        ],
+        "genre": ["Fantasy", "Drama", "Action", "Adventure"],
+        "pemain": [
+            {
+                "id": "b4e8b3d3-0ef6-4999-921f-f72d4cb6860c",
+                "name": "Kit Harington"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "da9c8051-8af8-4d95-b2ec-b903d579879b",
+                "name": "David Benioff"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "6ae49c25-f0b7-4c5c-97bb-f3a3144fe07b",
+                "name": "Alan Taylor"
+            }
+        ]
+    },
+    "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3": {
+        "id": "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3",
+        "judul": "Itaewon Class",
+        "sinopsis": "Seorang pria memulai restoran di Itaewon untuk membalas dendam dan mencapai kesuksesan.",
+        "asal_negara": ["Korea Selatan"],
+        "sinopsis_trailer": "Perjuangan, cinta, dan pertarungan untuk keadilan di jalanan Seoul.",
+        "url_video_trailer": "https://www.example.com/trailer14",
+        "release_date_trailer": "2020-01-31",
+        "id_sutradara": "8a01c03c-6b12-4d56-9408-af4a895b867d",
+        "total_view": 35000,
+        "rating": 3.9,
+        "episode": [
+            {
+                "id_series": "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3",
+                "sub_judul": "Mad Max Beyond Thunderdome Ep 1"
+            },
+            {
+                "id_series": "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3",
+                "sub_judul": "Mad Max Beyond Thunderdome Ep 2"
+            },
+            {
+                "id_series": "fcc26335-ad7f-43e3-a3d6-9231fe7df9b3",
+                "sub_judul": "Mad Max Beyond Thunderdome Ep 3"
+            }
+        ],
+        "genre": ["Drama"],
+        "pemain": [
+            {
+                "id": "0b3c75ac-29ee-49eb-a9b6-c795d23d7357",
+                "name": "Park Seo-joon"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "5f437b8b-fab5-41b5-97f7-84b8d6c6a8dc",
+                "name": "Gwang Jin"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "8a01c03c-6b12-4d56-9408-af4a895b867d",
+                "name": "Kim Sung-yoon"
+            }
+        ]
+    },
+    "415b6963-4501-4221-9e40-0ab6bece59bf": {
+        "id": "415b6963-4501-4221-9e40-0ab6bece59bf",
+        "judul": "Hotel Del Luna",
+        "sinopsis": "Sebuah hotel misterius yang melayani roh-roh penasaran dengan masalah mereka.",
+        "asal_negara": ["Korea Selatan"],
+        "sinopsis_trailer": "Keajaiban dan kegelapan bertemu di hotel yang tak terlupakan ini.",
+        "url_video_trailer": "https://www.example.com/trailer15",
+        "release_date_trailer": "2019-07-13",
+        "id_sutradara": "3a022177-456a-46af-a7b8-ec89619e48b6",
+        "total_view": 55000,
+        "rating": 4.2,
+        "episode": [
+            {
+                "id_series": "415b6963-4501-4221-9e40-0ab6bece59bf",
+                "sub_judul": "Prayer for the Dying, A Ep 1"
+            },
+            {
+                "id_series": "415b6963-4501-4221-9e40-0ab6bece59bf",
+                "sub_judul": "Prayer for the Dying, A Ep 2"
+            }
+        ],
+        "genre": ["Fantasy", "Romance", "Horror"],
+        "pemain": [
+            {
+                "id": "edc11df2-0ed7-42ee-bec3-39d279fe76df",
+                "name": "IU"
+            }
+        ],
+        "penulis_skenario": [
+            {
+                "id": "ef8b3993-d4c0-4cc3-9a88-1986a611dd97",
+                "name": "Hong Jung-eun"
+            }
+        ],
+        "sutradara": [
+            {
+                "id": "3a022177-456a-46af-a7b8-ec89619e48b6",
+                "name": "Oh Choong-hwan"
+            }
+        ]
+    }
+}

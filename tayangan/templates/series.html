@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<main class="container-lg">
+  <h1 id="judul">Judul</h1>
+
+  <section>
+    <h2>Episode</h2>
+    <div id="episode">
+      N/A
+    </div>
+  </section>
+  {% include 'modal-favorit.html' %}
+  {% include 'modal-unduh.html' %}
+
+  
+  <a href="{% url 'tayangan:add-unduhan' id_tayangan %}">
+    <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#ModalUnduh">Unduh Series</button>
+  </a>
+  <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#ModalFavorit">Tambahkan ke Favorit</button>
+
+  <section>
+    <div>
+      <strong>Total view:</strong> <span id="total-view">N/A</span>
+    </div>
+    <div>
+      <strong>Rating rata-rata:</strong> <span id="rating">N/A</span>/5
+    </div>
+    <div>
+      <strong>Asal negara:</strong> <span id="asal-negara">N/A</span>
+    </div>
+    <div>
+      <strong>Sinopsis:</strong>
+      <p id="sinopsis">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis libero nec
+        mi commodo, vel rutrum neque eleifend. Vivamus nec turpis nec quam gravida faucibus.
+      </p>
+    </div>
+    <div><strong>Genre:</strong> <span id="genre">N/A</span></div>
+  </section>
+
+  <section>
+    <div>
+      <strong>Pemeran: </strong>
+      <div id="pemain">
+        N/A
+      </div>
+    </div>
+    <div>
+      <strong>Penulis Naskah:</strong>
+      <div id="penulis-skenario">
+        N/A
+      </div>
+    </div>
+    <div>
+      <strong>Sutradara: </strong>
+      <a id="sutradara" href="#">N/A</a>
+    </div>
+  </section>
+
+  {% include 'ulasan.html' %}
+
+</main>
+
+<script src="{% static 'js/series.js' %}" type="module"></script>
+{% endblock content %}

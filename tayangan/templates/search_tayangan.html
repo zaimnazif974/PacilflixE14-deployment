@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<main class="container-lg">
+  <h1 class="my-4">Hasil Pencarian</h1>
+
+  <form class="d-flex my-4" role="search">
+    <input id="search-bar" class="form-control me-2" type="search" placeholder="Cari tayangan berdasarkan judul..."
+      aria-label="Search">
+    <button id="search-button" class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+
+  <section class="my-4">
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Judul</th>
+          <th scope="col">Sinopsis Trailer</th>
+          <th scope="col">URL Trailer</th>
+          <th scope="col">Tanggal Rilis Trailer</th>
+          {% if request.session.username %}
+          <th scope="col" id="header-tayangan">Tayangan</th>
+          {% endif %}
+        </tr>
+      </thead>
+      <tbody class="table-group-divider" id="search-result-tbody">
+        <tr>
+          <td>Mark 1</td>
+          <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+          <td><a href="www.example.com">www.example.com</a></td>
+          <td>1 Januari 2020</td>
+          {% if request.session.username %}
+          <td><a type="button" class="btn btn-dark">View More</a></td>
+          {% endif %}
+        </tr>
+    </table>
+  </section>
+
+</main>
+
+<script src="{% static 'js/search.js' %}"></script>
+{% endblock content %}

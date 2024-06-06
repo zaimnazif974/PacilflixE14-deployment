@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+
+<main class="container-lg">
+  {% include 'modal-favorit.html' %}
+  {% include 'modal-unduh.html' %}
+  <h1 id="judul" class="mb-4">Judul</h1>
+
+  <div class="d-flex flex-row justify-content-center my-4">
+    <input type="range" name="progress-tonton" id="progress-input" min="0" max="100" value="0" class="w-50">
+    <p class="inline my-auto mx-2">
+      <span id="progress-percentage">0</span>%
+    </p>
+  </div>
+
+  <button class="btn btn-primary" type="submit" id="tonton-button">Tonton</button>
+  <a href="{% url 'tayangan:add-unduhan' id_tayangan %}">
+    <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#ModalUnduh">Unduh
+      Film</button>
+  </a>
+  <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#ModalFavorit">Favorit
+    Tayangan</button>
+
+  <section>
+    <div>
+      <strong>Total view:</strong> <span id="total-view">N/A</span>
+    </div>
+    <div>
+      <strong>Rating rata-rata:</strong> <span id="rating">N/A</span>/5
+    </div>
+    <div>
+      <strong>Durasi film:</strong> <span id="durasi-film">N/A</span> menit
+    </div>
+    <div>
+      <strong>Tanggal rilis:</strong> <span id="release-date-film">N/A</span>
+    </div>
+    <div>
+      <strong>URL Film:</strong> <a id="url-video-film" href="#">N/A</a>
+    </div>
+    <div>
+      <strong>Asal negara:</strong> <span id="asal-negara">N/A</span>
+    </div>
+    <div>
+      <strong>Sinopsis:</strong>
+      <p id="sinopsis">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis libero nec
+        mi commodo, vel rutrum neque eleifend. Vivamus nec turpis nec quam gravida faucibus.
+      </p>
+    </div>
+    <div><strong>Genre:</strong> <span id="genre">N/A</span></div>
+  </section>
+
+  <section>
+    <div>
+      <strong>Pemain: </strong>
+      <div id="pemain">
+        N/A
+      </div>
+    </div>
+    <div>
+      <strong>Penulis skenario: </strong>
+      <div id="penulis-skenario">
+        N/A
+      </div>
+    </div>
+    <div>
+      <strong>Sutradara: </strong>
+      <a id="sutradara" href="#">N/A</a>
+    </div>
+  </section>
+
+  <input type="hidden" name="tayangan_id" id="tayangan-id">
+
+  <div id="liveAlertPlaceholder" class="position-fixed bottom-0 end-0 z-3"></div>
+
+  {% include 'ulasan.html' %}
+
+</main>
+
+<script src="{% static 'js/film.js' %}" type="module"></script>
+<script src="{% static 'js/tonton_tayangan.js' %}" type="module"></script>
+{% endblock content %}

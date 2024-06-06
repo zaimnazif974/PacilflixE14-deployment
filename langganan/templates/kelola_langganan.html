@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    {% if messages %}
+        <div class="alert alert-danger">
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+    
+    <h1 class="mb-4">Kelola Langganan</h1>
+
+    <h2>Langganan Aktif Anda:</h2>
+    {% if active_subscription %}
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nama Paket</th>
+                        <th>Harga</th>
+                        <th>Resolusi Layar</th>
+                        <th>Dukungan Perangkat</th>
+                        <th>Tanggal Dimulai</th>
+                        <th>Tanggal Berakhir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ active_subscription.0 }}</td>
+                        <td>{{ active_subscription.1 }}</td>
+                        <td>{{ active_subscription.2 }}</td>
+                        <td>{{ active_subscription.3 }}</td>
+                        <td>{{ active_subscription.4 }}</td>
+                        <td>{{ active_subscription.5 }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p>-</p>
+    {% endif %}
+
+    <h2>Pilih Paket Lain:</h2>
+    {% if recommended_packages %}
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nama Paket</th>
+                        <th>Harga</th>
+                        <th>Resolusi Layar</th>
+                        <th>Dukungan Perangkat</th>
+                        <th>Beli</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for paket in recommended_packages %}
+                        <tr>
+                            <td>{{ paket.0 }}</td>
+                            <td>{{ paket.1 }}</td>
+                            <td>{{ paket.2 }}</td>
+                            <td>{{ paket.3 }}</td>
+                            <td><a href="{% url 'main:beli_paket' paket.0 %}" class="btn btn-primary">Beli</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p>Tidak ada paket tersedia.</p>
+    {% endif %}
+
+    <h2>Riwayat Transaksi:</h2>
+    {% if transaction_history %}
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nama Paket</th>
+                        <th>Tanggal Dimulai</th>
+                        <th>Tanggal Berakhir</th>
+                        <th>Metode Pembayaran</th>
+                        <th>Tanggal Pembayaran</th>
+                        <th>Total Pembayaran</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for transaksi in transaction_history %}
+                        <tr>
+                            <td>{{ transaksi.0 }}</td>
+                            <td>{{ transaksi.1 }}</td>
+                            <td>{{ transaksi.2 }}</td>
+                            <td>{{ transaksi.3 }}</td>
+                            <td>{{ transaksi.4 }}</td>
+                            <td>{{ transaksi.5 }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p>Anda belum memiliki riwayat transaksi.</p>
+    {% endif %}
+</div>
+{% endblock %}
