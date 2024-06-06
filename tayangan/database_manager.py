@@ -7,8 +7,8 @@ import os
 # Reference : https://www.psycopg.org/docs/usage.html
 
 class DatabaseManager:
-    connection = psycopg2.connect(user= "postgres.divsxpdrgvkamuvwyuhf",
-                        password="pacilflix123",
+    connection = psycopg2.connect(user= "postgres.asxvaofubgqrgynnfkho",
+                        password="pacilflixE14",
                         host="aws-0-ap-southeast-1.pooler.supabase.com",
                         port="6543",
                         database="postgres")
