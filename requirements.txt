@@ -4,7 +4,6 @@ whitenoise
 psycopg2-binary
 requests
 urllib3
-psycopg2
 django-environ
 django-cors-headers
 python-dateutil
